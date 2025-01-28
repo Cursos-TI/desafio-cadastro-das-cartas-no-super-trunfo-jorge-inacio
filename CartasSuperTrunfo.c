@@ -2,7 +2,7 @@
 
 int main() {
     // Declaração de Variáveis - Atributos das Cartas.
-    char estado, codcarta[03], nomecidade[30];
+    char estado, codcarta[04], nomecidade[30];
     int populacao, pontostur;
     float area, pib;
 
