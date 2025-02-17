@@ -5,7 +5,7 @@ int main() {
     char estado, codcarta[04], nomecidade[30];
     int populacao, pontostur;
     float area, pib;
-    // Teste de github.
+
     // Cadastrando as cartas.
     printf("Digite o Estado: ");
     scanf(" %c", &estado);
@@ -14,7 +14,7 @@ int main() {
     scanf("%s", codcarta);
 
     printf("Digite o Nome da Cidade: ");
-    scanf(" %[^\n]", nomecidade);
+    scanf("%s", nomecidade);
 
     printf("Digite a População: ");
     scanf("%d", &populacao);
