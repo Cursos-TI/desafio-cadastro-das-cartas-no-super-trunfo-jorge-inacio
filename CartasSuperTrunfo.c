@@ -9,7 +9,12 @@ int main() {
     int populacao1, pontostur1;
     float area1, pib1;
 
-    // Cadastrando as cartas.
+    // Dados da carta 2.
+    char estado2, codcarta2[3], nomecidade2[30];
+    int populacao2, pontostur2;
+    float area2, pib2;
+
+    // Cadastrando a carta 1.
     printf("Digite o Estado: ");
     scanf(" %c", &estado1);
 
