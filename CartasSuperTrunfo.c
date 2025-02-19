@@ -37,7 +37,7 @@ int main() {
     scanf("%d", &pontostur1);
 
     // Cadastrando a carta 2.
-    printf("Digite o Estado: ");
+    printf("\n\nDigite o Estado: ");
     scanf(" %c", &estado2);
 
     printf("Digite o Código da Carta: ");
