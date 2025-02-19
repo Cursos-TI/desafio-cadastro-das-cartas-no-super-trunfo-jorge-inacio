@@ -19,38 +19,38 @@ int main() {
     scanf(" %c", &estado1);
 
     printf("Digite o Código da Carta: ");
-    scanf(" %s", codcarta1);
+    scanf("%s", codcarta1);
 
     printf("Digite o Nome da Cidade: ");
-    scanf(" %s", nomecidade1);
+    scanf("%s", nomecidade1);
 
     printf("Digite a População: ");
-    scanf(" %d", &populacao1);
+    scanf("%d", &populacao1);
 
     printf("Digite a Área (Km2): ");
-    scanf(" %f", &area1);
+    scanf("%f", &area1);
 
     printf("Digite o PIB (R$): ");
     scanf("%f", &pib1);
 
     printf("Digite número de pontos turísticos: ");
-    scanf(" %d", &pontostur1);
+    scanf("%d", &pontostur1);
 
     // Cadastrando a carta 2.
     printf("Digite o Estado: ");
     scanf(" %c", &estado2);
 
     printf("Digite o Código da Carta: ");
-    scanf(" %s", codcarta2);
+    scanf("%s", codcarta2);
 
     printf("Digite o Nome da Cidade: ");
-    scanf(" %s", nomecidade2);
+    scanf("%s", nomecidade2);
 
     printf("Digite a População: ");
-    scanf(" %d", &populacao2);
+    scanf("%d", &populacao2);
 
     printf("Digite a Área (Km2): ");
-    scanf(" %f", &area2);
+    scanf("%f", &area2);
 
     printf("Digite o PIB (R$): ");
     scanf("%f", &pib2);
