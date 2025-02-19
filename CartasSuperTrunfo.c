@@ -9,36 +9,9 @@ int main() {
     int populacao1, pontostur1;
     float area1, pib1;
 
-    // Dados da carta 2.
-    char estado2, codcarta2[3], nomecidade2[30];
-    int populacao2, pontostur2;
-    float area2, pib2;
-    
-    // Cadastrando a carta 1.
+    // Cadastrando as cartas.
     printf("Digite o Estado: ");
-    scanf(" %c", &estado1);
-
-    printf("Digite o Código da Carta: ");
-    scanf("%s", codcarta1);
-
-    printf("Digite o Nome da Cidade: ");
-    scanf("%s", nomecidade1);
-
-    printf("Digite a População: ");
-    scanf("%d", &populacao1);
-
-    printf("Digite a Área (Km2): ");
-    scanf("%f", &area1);
-
-    printf("Digite o PIB (R$): ");
-    scanf("%f", &pib1);
-
-    printf("Digite número de pontos turísticos: ");
-    scanf("%d", &pontostur1);
-
-    // Cadastrando a carta 2.
-    printf("\n\nDigite o Estado: ");
-    scanf(" %c", &estado2);
+    scanf(" %c", &estado);
 
     printf("Digite o Código da Carta: ");
     scanf("%s", codcarta2);
