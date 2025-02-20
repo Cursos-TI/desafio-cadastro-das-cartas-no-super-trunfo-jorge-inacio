@@ -36,9 +36,6 @@ int main() {
     printf("Digite número de pontos turísticos: ");
     scanf("%d", &pontostur1);
 
-    // Limpar o buffer antes de ler o próximo caractere.
-    while ((getchar()) != '\n');
-
     // Cadastrando a carta 2.
     printf("\n\nDigite o Estado: ");
     scanf(" %c", &estado2);
