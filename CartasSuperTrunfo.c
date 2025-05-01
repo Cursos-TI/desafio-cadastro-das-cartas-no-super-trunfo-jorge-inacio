@@ -5,12 +5,12 @@ int main() {
     // Declaração de Variáveis - Atributos das Cartas.
 
     // Dados da carta 1.
-    char estado1, codcarta1[3], nomecidade1[30];
+    char estado1, codcarta1[4], nomecidade1[30];
     int populacao1, pontostur1;
     float area1, pib1;
 
     // Dados da carta 2.
-    char estado2, codcarta2[3], nomecidade2[30];
+    char estado2, codcarta2[4], nomecidade2[30];
     int populacao2, pontostur2;
     float area2, pib2;
 
@@ -19,10 +19,10 @@ int main() {
     scanf(" %c", &estado1);
 
     printf("Digite o Código da Carta: ");
-    scanf("%s", codcarta1);
+    scanf("%3s", codcarta1);
 
     printf("Digite o Nome da Cidade: ");
-    scanf("%s", nomecidade1);
+    scanf("%30s", nomecidade1);
 
     printf("Digite a População: ");
     scanf("%d", &populacao1);
@@ -41,10 +41,10 @@ int main() {
     scanf(" %c", &estado2);
 
     printf("Digite o Código da Carta: ");
-    scanf("%s", codcarta2);
+    scanf("%3s", codcarta2);
 
     printf("Digite o Nome da Cidade: ");
-    scanf("%s", nomecidade2);
+    scanf("%30s", nomecidade2);
 
     printf("Digite a População: ");
     scanf("%d", &populacao2);
